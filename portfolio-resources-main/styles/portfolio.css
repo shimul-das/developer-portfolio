@@ -7,7 +7,9 @@
 .text-primary {
     color: #FD6E0A;
 }
-
+section{
+    margin-top: 130px;
+}
 .btn-primary {
     font-weight: 700;
     font-size: 20px;
@@ -117,4 +119,89 @@ padding: 130px 150px;
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+/* What I do */
+.what-i-do{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-title{
+    
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.section-title{
+    text-align: center;
+}
+/* Resume styles */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+    
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.resume .description{
+    color: #757575;
+
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* contact style */
+.contact .section-title{
+    text-align: left;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact input, textarea {
+    margin-bottom: 24px;
+
+}
+input[type="text"],input[type="email"],textarea{
+    height: 64px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.section-descriptions{
+    font-size: 16px;
+    color: #474747;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.contact a{
+    text-decoration: none;
 }
